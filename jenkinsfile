@@ -12,7 +12,7 @@ pipeline {
         }
         stage('Build Image') {
             steps {
-                sh 'docker build -t flask-app:latest .'
+                sh 'docker build -t expensse-app:latest .'
             }
         }
         stage('Deploy with docker-compose') {
