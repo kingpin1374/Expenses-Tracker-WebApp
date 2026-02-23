@@ -16,4 +16,4 @@ COPY --from=build /app/target/*.jar /app/expenseapp.jar
 
 CMD ["java","-jar","/app/expenseapp.jar"]
 
-EXPOSE 8080
+EXPOSE 8000
